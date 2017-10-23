@@ -524,11 +524,11 @@ section-main
 
 .d-day {
   position: absolute;
-  top: 51%;
+  top: 52%;
   left: 50%;
   transform: translateX(-50%);
   color: #a4e4d6;
-  font-size: 13px;
+  font-size: 15px;
   font-family: 'Roboto Slab', serif;
   font-weight: 600;
 }
@@ -560,15 +560,15 @@ section-invitation
 section-gallery
 */
 .section-gallery {
-  max-width: 588px; 
+  max-width: 592px; 
   background: #a4e4d6; 
   margin:0 auto; 
   text-align: center;
-  padding: 40px 20px 40px;
+  padding: 40px 18px 25px;
 }
 
 .section-gallery .txt {
-  padding: 0 0 20px 0;
+  padding: 0 0 5px 0;
 }
 
 .test {
@@ -619,10 +619,10 @@ section-gallery
 section-location
 */
 .section-location {
-  max-width: 588px; 
+  max-width: 592px; 
   background: #686e6d; 
   margin:0 auto;
-  padding: 40px 20px;
+  padding: 40px 18px;
 }
 
 .section-location .address {
@@ -631,6 +631,7 @@ section-location
 }
 
 .section-location .address .txt {
+  font-family: 'Nanum Barun Gothic';
   padding: 0 60px 0 0;
 }
 
@@ -643,7 +644,7 @@ section-location
 }
 
 .section-location .map-wrap {
-  height: 180px; 
+  height: 250px; 
   box-sizing: border-box;
   border: 4px solid #fff;
 }
@@ -651,7 +652,7 @@ section-location
 .nav {
   color: #fff;
   text-align: center;
-  margin: 20px 0 0;
+  margin: 20px 0;
   font-size: 13px;
   font-family: 'Nanum Barun Gothic';
 }
@@ -663,21 +664,22 @@ section-location
 .nav span {
   display: block;
   color: #fff;
-  padding: 5px 0 0;
+  padding: 8px 0 0;
 }
 
 .section-location .hall-info {
   background: rgba(255,255,255,1);
   font-size: 13px;
   font-family: 'Nanum Barun Gothic';
-  margin: 20px 0 0;
-  padding: 20px;
+  padding: 18px 20px;
 }
 
 .section-location .hall-info ul{
   line-height: 18px;
 }
 
-
-
+.section-location .hall-info strong {
+  display: block;
+  margin-bottom: 3px;
+}
 

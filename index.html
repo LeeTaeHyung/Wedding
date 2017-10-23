@@ -3,6 +3,7 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0 minimum-scale=1.0,user-scalable=no">
+  <meta name="format-detection" content="telephone=no">
   <title>TaeHyung</title>
   <link rel="stylesheet" href="css/photoswipe.css">
   <link rel="stylesheet" href="css/default-skin/default-skin.css">
@@ -35,35 +36,6 @@
           position: new naver.maps.LatLng(37.48199891082701, 126.98148488749025),
           map: map
       });
-
-      var contentString = [
-          '<div class="iw_inner">',
-          '   <p style="font-size:13px;margin:0 10 0 10px">아르테스웨딩홀</p>',
-          '   <p style="font-size:10px">서울특별시 동작구 동작로59</p>',
-          '</div>'
-      ].join('');
-
-      var infowindow = new naver.maps.InfoWindow({
-          content: contentString,
-          maxWidth: 150,
-          backgroundColor: "#eee",
-          borderColor: "#2db400",
-          borderWidth: 1,
-          anchorSize: new naver.maps.Size(30, 30),
-          anchorSkew: true,
-          anchorColor: "#eee",
-          pixelOffset: new naver.maps.Point(-5, 10)
-      });
-
-      infowindow.open(map, marker);
-
-      naver.maps.Event.addListener(marker, "click", function(e) {
-          if (infowindow.getMap()) {
-              infowindow.close();
-          } else {
-              infowindow.open(map, marker);
-          }
-      });
     }
   </script>
 </head>
@@ -72,7 +44,7 @@
     <div class="section section-main">
       <div>
         <img src="img/main.png" class="img-bg">
-        <div class="d-day">D <span id="dDay"></span></div>
+        <div class="d-day">D<span id="dDay"></span></div>
       </div>
     </div>
     <div class="section section-invitation">
