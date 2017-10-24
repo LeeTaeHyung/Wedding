@@ -28,7 +28,7 @@
 
     function createMap() {
       var map = new naver.maps.Map('map', {
-        center: new naver.maps.LatLng(37.483058, 126.981604),
+        center: new naver.maps.LatLng(37.483524, 126.981665),
         zoom: 11
       });
 
@@ -42,67 +42,65 @@
 <body>
   <div class="wrap">
     <div class="section section-main">
-      <div>
-        <img src="img/main.png" class="img-bg">
-        <div class="d-day">D<span id="dDay"></span></div>
-      </div>
+      <img src="img/main.png" class="img-bg">
+      <div class="d-day">D<span id="dDay"></span></div>
     </div>
     <div class="section section-invitation">
       <img src="img/invitation.png" class="img-bg">
       <ul>
-        <li>
+        <li class="husband">
           <a href="tel:01099864150"><img src="img/icom_call.png"></a><a href="sms:01099864150"><img src="img/icon_sms.png"></a>
         </li>
-        <li>
-          <a href="sms:01092274156"><img src="img/icom_call.png"></a><a href="sms:01092274156"><img src="img/icon_sms.png"></a>
+        <li class="wife">
+          <a href="tel:01092274156"><img src="img/icom_call.png"></a><a href="sms:01092274156"><img src="img/icon_sms.png"></a>
         </li>
       </ul>
     </div>
     <div class="section section-gallery">
       <p class="txt">심장이 하늘에서 땅까지<br>아찔한 진자운동을 계속 하였습니다.</p>
-      <div class="test">
-        <div class="thumbnail-wrapper">
-          <div class="thumbnail">
+      <div class="thumbnail-wrapper">
+        <div class="thumbnail">
+          <div class="inner">
             <div class="centered"><img src="img/pic/IMG_0004.jpg"></div>
           </div>
         </div>
-        <div class="thumbnail-wrapper">
-          <div class="thumbnail">
+        <div class="thumbnail">
+          <div class="inner">
             <div class="centered"><img src="img/pic/IMG_0005.jpg"></div>
           </div>
         </div>
-        <div class="thumbnail-wrapper">
-          <div class="thumbnail">
+        <div class="thumbnail">
+          <div class="inner">
             <div class="centered"><img src="img/pic/IMG_0006.jpg"></div>
           </div>
         </div>
-        <div class="thumbnail-wrapper">
-          <div class="thumbnail">
+        <div class="thumbnail">
+          <div class="inner">
             <div class="centered"><img src="img/pic/IMG_0001.jpg"></div>
           </div>
         </div>
-        <div class="thumbnail-wrapper">
-          <div class="thumbnail">
+        <div class="thumbnail">
+          <div class="inner">
             <div class="centered"><img src="img/pic/IMG_0008.jpg"></div>
           </div>
         </div>
-        <div class="thumbnail-wrapper">
-          <div class="thumbnail">
+        <div class="thumbnail">
+          <div class="inner">
             <div class="centered"><img src="img/pic/IMG_0003.jpg"></div>
           </div>
         </div>
-        <div class="thumbnail-wrapper">
-          <div class="thumbnail">
+        <div class="thumbnail">
+          <div class="inner">
             <div class="centered"><img src="img/pic/IMG_0007.jpg"></div>
           </div>
         </div>
-        <div class="thumbnail-wrapper">
-          <div class="thumbnail">
+        <div class="thumbnail">
+          <div class="inner">
             <div class="centered"><img src="img/pic/IMG_0002.jpg"></div>
           </div>
         </div>
-        <div class="thumbnail-wrapper">
-          <div class="thumbnail">
+        <div class="thumbnail">
+          <div class="inner">
             <div class="centered"><img src="img/pic/IMG_0009.jpg"></div>
           </div>
         </div>
@@ -172,15 +170,15 @@
   <script type="text/javascript">
     var pswpElement = document.querySelectorAll('.pswp')[0];
     var items = [
-        {src: 'img/pic/IMG_0004.jpg', w: 842, h: 562},
-        {src: 'img/pic/IMG_0005.jpg', w: 842, h: 562},
-        {src: 'img/pic/IMG_0006.jpg', w: 765, h: 530},
-        {src: 'img/pic/IMG_0001.jpg', w: 562, h: 842},
-        {src: 'img/pic/IMG_0008.jpg', w: 410, h: 518},
-        {src: 'img/pic/IMG_0003.jpg', w: 445, h: 547},
-        {src: 'img/pic/IMG_0007.jpg', w: 830, h: 553},
-        {src: 'img/pic/IMG_0002.jpg', w: 829, h: 553},
-        {src: 'img/pic/IMG_0009.jpg', w: 842, h: 562}
+      {src: 'img/pic/IMG_0004.jpg', w: 1236, h: 824},
+      {src: 'img/pic/IMG_0005.jpg', w: 1236, h: 824},
+      {src: 'img/pic/IMG_0006.jpg', w: 1122, h: 777},
+      {src: 'img/pic/IMG_0001.jpg', w: 824, h: 1236},
+      {src: 'img/pic/IMG_0008.jpg', w: 601, h: 759},
+      {src: 'img/pic/IMG_0003.jpg', w: 652, h: 802},
+      {src: 'img/pic/IMG_0007.jpg', w: 1217, h: 812},
+      {src: 'img/pic/IMG_0002.jpg', w: 1216, h: 810},
+      {src: 'img/pic/IMG_0009.jpg', w: 1236, h: 824}
     ];
 
     var options = {
